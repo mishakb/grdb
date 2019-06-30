@@ -1,0 +1,15 @@
+Ndim_ := 4:
+x1_ := t:
+x2_ := theta:
+x3_ := phi:
+x4_ := x:
+sig_ := 2:
+complex_ := {}:
+g11_ := -k^2*sinh(x)^2:
+g22_ := k^2:
+g33_ := k^2*sin(theta)^2:
+g44_ := k^2:
+constraint_ := [ ]:
+Info_ := `The Bertotti-Robinson solution`:
+Ref_ := ["Bertotti, pr, v116, p1331, (1959)", "bapssmap, v7, p351, (1959)", "cmp, v5, p257, (1967)", "Robinson, cmp, v9, p161, (1968)"]:
+Archive1_ := `(10.16) p120`:

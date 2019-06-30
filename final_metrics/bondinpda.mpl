@@ -1,0 +1,21 @@
+Ndim_ := 4:
+x1_ := r:
+x2_ := u:
+x3_ := theta:
+x4_ := phi:
+sig_ := -2:
+complex_ := {}:
+eta12_ := 1:
+eta34_ := -1:
+bd12_ := exp(Q(r,u,theta))^2:
+bd21_ := 1:
+bd22_ := 1/2*(V(r,u,theta)*exp(Q(r,u,theta))^2-U(r,u,theta)^2*r^3*exp(gamma(r,u,theta))^2)/exp(Q(r,u,theta))^2/r:
+bd23_ := U(r,u,theta)*r^2*exp(gamma(r,u,theta))^2/exp(Q(r,u,theta))^2:
+bd33_ := -1/2*I*2^(1/2)*r*exp(gamma(r,u,theta)):
+bd34_ := -1/2*2^(1/2)*r/exp(gamma(r,u,theta))*sin(theta):
+bd43_ := 1/2*I*2^(1/2)*r*exp(gamma(r,u,theta)):
+bd44_ := -1/2*2^(1/2)*r/exp(gamma(r,u,theta))*sin(theta):
+constraint_ := [ ]:
+Info_ := `Covariant NP tetrad for the Bondi metric.`: 
+Ref_:=["Bondi, prsla, v269, p21, (1962)"]:
+

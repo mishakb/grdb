@@ -1,0 +1,14 @@
+Ndim_ := 4:
+x1_ := t:
+x2_ := z:
+x3_ := x:
+x4_ := y:
+sig_ := 2:
+complex_ := {}:
+g11_ := -1:
+g22_ := exp(2*alpha(t)):
+g33_ := exp(2*beta(t)):
+g44_ := exp(2*beta(t)):
+constraint_ := [ ]:
+Info_ := `Bianchi I plane symmetric model`:
+Archive1_ := `(13.49) p162`:

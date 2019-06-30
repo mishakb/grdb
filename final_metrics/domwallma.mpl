@@ -1,0 +1,14 @@
+Ndim_ := 4:
+x1_ := t:
+x2_ := x:
+x3_ := y:
+x4_ := z:
+sig_ := 2:
+complex_ := {}:
+g11_ := -(1-k*z)^2:
+g22_ := (1-k*z)^2*exp(2*k*t):
+g33_ := (1-k*z)^2*exp(2*k*t):
+g44_ := 1:
+constraint_ := [ ]:
+Info_ := `Metric for space-time with domain wall`:
+Ref_ := ["Vilenkin, plb, v133, p177, (1983)", "Ipser & Sikivie, prd, v30, p712, (1984)"]:

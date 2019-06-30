@@ -1,0 +1,15 @@
+Ndim_ := 4:
+x1_ := t:
+x2_ := z:
+x3_ := x:
+x4_ := y:
+sig_ := 2:
+complex_ := {}:
+g11_ := -1:
+g22_ := cos(F*t)^2:
+g33_ := 1:
+g44_ := cos(F*x)^2:
+Info_ := `The Bertotti-Robinson solution`:
+constraint_ := [ ]:
+Ref_ := ["Bertotti, pr, v116, p1331, (1959)", "Robinson, bapssmap, v7, p351, (1959)", "Lovelock, cmp, v5, p257, (1967)", "Dolan, cmp, v9, p161, (1968)"]:
+Archive1_ := `(32.95) p372`:

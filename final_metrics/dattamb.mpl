@@ -1,0 +1,14 @@
+Ndim_ := 4:
+x1_ := t:
+x2_ := x:
+x3_ := y:
+x4_ := z:
+sig_ := 2:
+complex_ := {}:
+g11_ := -(C1*t^mu+C2/t^mu)^2*t^(2*mu^2):
+g22_ := 1/(C1*t^mu+C2/t^mu)^2:
+g33_ := (C1*t^mu+C2/t^mu)^2*t^(2*mu^2):
+g44_ := t^2*(C1*t^mu+C2/t^mu)^2:
+constraint_ := [ ]:
+Info_ := `Datta s Einstein-Maxwell Solution`:
+Archive1_ := `(11.62) p137`:

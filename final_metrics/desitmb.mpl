@@ -1,0 +1,13 @@
+Ndim_ := 4:
+x1_ := t:
+x2_ := x:
+x3_ := y:
+x4_ := z:
+sig_ := 2:
+g11_ := -1:
+g22_ := exp(2*t/alpha):
+g33_ := exp(2*t/alpha):
+g44_ := exp(2*t/alpha):
+constraint_ := [ ]:
+Info_ := `de Sitter space`:
+Archive3_ := `p125`:

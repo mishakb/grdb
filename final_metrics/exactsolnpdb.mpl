@@ -1,0 +1,19 @@
+Ndim_ := 4:
+x1_ := t:
+x2_ := z:
+x3_ := x:
+x4_ := y:
+complex_ := {}:
+eta12_ := 1:
+eta34_ := -1:
+bd11_ := 1:
+bd12_ := exp(2*alpha(t))^(1/2):
+bd21_ := 1/2:
+bd22_ := -1/2*exp(2*alpha(t))^(1/2):
+bd33_ := -1/2*I*2^(1/2)/exp(beta(t))*exp(2*beta(t)):
+bd34_ := -1/2*2^(1/2)/exp(beta(t))*exp(2*beta(t)):
+bd43_ := 1/2*I*2^(1/2)/exp(beta(t))*exp(2*beta(t)):
+bd44_ := -1/2*2^(1/2)/exp(beta(t))*exp(2*beta(t)):
+constraint_ := []:
+Info_ := `Bianchi I plane symmetric model`:
+

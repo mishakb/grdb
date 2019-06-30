@@ -1,0 +1,13 @@
+Ndim_ := 4:
+x1_ := t:
+x2_ := r:
+x3_ := theta:
+x4_ := phi:
+sig_ := 2:
+g11_ := -C1^2*exp(-arcsin((-2*r^2+C0)/(C0^2+4*w0^2)^(1/2))):
+g22_ := w0^2/(-r^4+C0*r^2+w0^2):
+g33_ := r^2:
+g44_ := r^2*sin(theta)^2:
+constraint_ := [ ]:
+Info_ := `Bayin s spherically symmetric static perfect fluid solution II`:
+Ref_:= ["Bayin, prd, v18, pp2745-2751, (1978)"]:

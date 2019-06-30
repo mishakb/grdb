@@ -1,0 +1,15 @@
+Ndim_ := 4:
+x1_ := t:
+x2_ := x:
+x3_ := y:
+x4_ := z:
+sig_ := 2:
+complex_ := {}:
+g11_ := -1:
+g22_ := 16*t^2:
+g33_ := t*exp(-4*x):
+g44_ := t*exp(4*x):
+constraint_ := [ ]:
+Info_ := `Ellis & MacCallum s G3VIo dust solution`:
+Ref_ := ["Ellis & MacCallum, cmp, v12, p108, (1969)", "Dunn & Tupper, apj, v204, p322, (1976)", "Evans, mnras, v183, p727, (1978)"]:
+Archive1_ := `(12.25) p150`:

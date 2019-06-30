@@ -1,0 +1,15 @@
+Ndim_ := 4:
+x1_ := t:
+x2_ := x:
+x3_ := y:
+x4_ := z:
+sig_ := 2:
+complex_ := {}:
+g11_ := -(1+z^2):
+g22_ := 1-y^2:
+g33_ := 1/(1-y^2):
+g44_ := 1/(1+z^2):
+constraint_ := [ ]:
+Info_ := `The Bertotti-Robinson solution`:
+Ref_ := ["Bertotti, pr, v116, p1331, (1959)", "Robinson, bapssmap, v7, p351, (1959)", "Lovelock, cmp, v5, p257, (1967)", "Dolan, cmp, v9, p161, (1968)"]:
+Archive1_ := `(10.19) p120`:

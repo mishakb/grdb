@@ -1,0 +1,19 @@
+Ndim_ := 4:
+x1_ := t:
+x2_ := r:
+x3_ := theta:
+x4_ := phi:
+complex_ := {}:
+eta12_ := 1:
+eta34_ := -1:
+bd11_ := 16*k^4/(4*E(t)*k^2-r^2)^2*E(t)^2:
+bd12_ := 1/4*(4*E(t)*k^2-r^2)/k^2*E(t):
+bd21_ := 1/2:
+bd22_ := -1/128/k^6*(4*E(t)*k^2-r^2)^3/E(t):
+bd33_ := -1/32*I*(4*E(t)*k^2-r^2)^2/k^4*r*2^(1/2):
+bd34_ := -1/32*2^(1/2)*sin(theta)*(4*E(t)*k^2-r^2)^2*r/k^4:
+bd43_ := 1/32*I*(4*E(t)*k^2-r^2)^2/k^4*r*2^(1/2):
+bd44_ := -1/32*2^(1/2)*sin(theta)*(4*E(t)*k^2-r^2)^2*r/k^4:
+constraint_ := []:
+Info_ := `NP tetrad for Faulkes s non-static spherically symmetric perfect fluid solution`:
+

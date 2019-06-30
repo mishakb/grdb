@@ -1,0 +1,14 @@
+Ndim_ := 4:
+x1_ := t:
+x2_ := r:
+x3_ := theta:
+x4_ := phi:
+sig_ := 2:
+complex_ := {}:
+g11_ := -E(t)^2/(E(t)-(r/k/2)^2)^2:
+g22_ := (E(t)-(r/k/2)^2)^4:
+g33_ := (E(t)-(r/k/2)^2)^4*r^2:
+g44_ := (E(t)-(r/k/2)^2)^4*r^2*sin(theta)^2:
+constraint_ := [ ]:
+Info_ := `Faulkes s non-static spherically symmetric perfect fluid solution`:
+Ref_ := ["Faulkes, ptp, v42, pp1139-1142, (1969)"]:

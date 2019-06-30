@@ -1,0 +1,14 @@
+Ndim_ := 4:
+x1_ := t:
+x2_ := chi:
+x3_ := theta:
+x4_ := phi:
+sig_ := 2:
+complex_ := {}:
+g11_ := -1/Lambda:
+g22_ := 1/Lambda:
+g33_ := sin(chi)^2/Lambda:
+g44_ := sin(chi)^2*sin(theta)^2/Lambda:
+constraint_ := [ ]:
+Info_ := `Einstein s static universe. Polar co-ordinates.`:
+Archive1_ := `(10.23b) p122`:

@@ -1,0 +1,14 @@
+Ndim_ := 4:
+x1_ := t:
+x2_ := r:
+x3_ := z:
+x4_ := phi:
+sig_ := 2:
+complex_ := {}:
+g11_ := -(1+r^2)^(6/5):
+g22_ := t^(4/3)*(1+r^2)^(2/5): 
+g33_ := t^(-2/3)/(1+r^2)^(2/5):
+g44_ := t^(4/3)*r^2/(1+r^2)^(2/5):
+constraint_ := [ ]:
+Info_ := `Davidson s cylindrically symmetric radiation perfect fluid universe`:
+Ref_ := `Davidson, jmp, v32, p1560, (1991)`:
