@@ -1,0 +1,21 @@
+Ndim_ :=    4   :
+x1_   :=   u   :
+x2_   :=   v   :
+x3_   :=   w   :
+x4_   :=   x   :
+eta12_   :=   1   :
+eta34_   :=   -1   :
+b11_   :=   1/2*P(u,v,w,x)*2^(1/2)/(L(u,v,w,x)*P(u,v,w,x)-M(u,v,w,x)*N(u,v,w,x))   :
+b12_   :=   -1/2*N(u,v,w,x)*2^(1/2)/(L(u,v,w,x)*P(u,v,w,x)-M(u,v,w,x)*N(u,v,w,x))   :
+b14_   :=   -1/2/S(w,x)*2^(1/2)   :
+b21_   :=   1/2*P(u,v,w,x)*2^(1/2)/(L(u,v,w,x)*P(u,v,w,x)-M(u,v,w,x)*N(u,v,w,x))   :
+b22_   :=   -1/2*N(u,v,w,x)*2^(1/2)/(L(u,v,w,x)*P(u,v,w,x)-M(u,v,w,x)*N(u,v,w,x))   :
+b24_   :=   1/2/S(w,x)*2^(1/2)   :
+b31_   :=   -1/2*M(u,v,w,x)*2^(1/2)/(L(u,v,w,x)*P(u,v,w,x)-M(u,v,w,x)*N(u,v,w,x))   :
+b32_   :=   1/2*L(u,v,w,x)*2^(1/2)/(L(u,v,w,x)*P(u,v,w,x)-M(u,v,w,x)*N(u,v,w,x))   :
+b33_   :=   -1/2*I/R(w,x)*2^(1/2)   :
+b41_   :=   -1/2*M(u,v,w,x)*2^(1/2)/(L(u,v,w,x)*P(u,v,w,x)-M(u,v,w,x)*N(u,v,w,x))   :
+b42_   :=   1/2*L(u,v,w,x)*2^(1/2)/(L(u,v,w,x)*P(u,v,w,x)-M(u,v,w,x)*N(u,v,w,x))   :
+b43_   :=   1/2*I/R(w,x)*2^(1/2)   :
+Info_ := `Contravariant NPtetrad for the modified Debever-McLenaghan-Tariq metric (GRG 10 853) `: 
+

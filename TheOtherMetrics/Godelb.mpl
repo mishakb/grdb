@@ -1,0 +1,15 @@
+Ndim_ :=    4   :
+x1_   :=   x   :
+x2_   :=   y   :
+x3_   :=   z   :
+x4_   :=   t   :
+eta11_   :=   -1   :
+eta22_   :=   -1   :
+eta33_   :=   -1   :
+eta44_   :=   1   :
+bd11_   :=   a   :
+bd22_   :=   -1/2*a*exp(x)*2^(1/2)   :
+bd33_   :=   a   :
+bd42_   :=   a*exp(x)   :
+bd44_   :=   a*c   :
+Info_ := `    Godel's universe    `:

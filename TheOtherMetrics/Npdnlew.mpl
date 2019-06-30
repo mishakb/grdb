@@ -1,0 +1,14 @@
+Ndim_ :=    4   :
+x1_   :=   t   :
+x2_   :=   x   :
+x3_   :=   y   :
+x4_   :=   z   :
+eta12_   :=   1   :
+eta34_   :=   -1   :
+bd11_   :=   1/2*exp(s(x,y))*2^(1/2)   :
+bd14_   :=   -1/2*r(x,y)*exp(-s(x,y))*2^(1/2)+1/2*w(x,y)*exp(s(x,y))*2^(1/2)   :
+bd21_   :=   1/2*exp(s(x,y))*2^(1/2)   :
+bd24_   :=   1/2*r(x,y)*exp(-s(x,y))*2^(1/2)+1/2*w(x,y)*exp(s(x,y))*2^(1/2)   :
+bd33_   :=   -1/2*exp(k(x,y)-s(x,y))*2^(1/2)   :
+bd42_   :=   -1/2*exp(k(x,y)-s(x,y))*2^(1/2)   :
+Info_:=`Covariant NPtetrad for Lewis-Papapetrou metric (see Phys. Rev. 167 1175)`:

@@ -1,0 +1,19 @@
+Ndim_ := 4:
+x1_ := r:
+x2_ := theta:
+x3_ := phi:
+x4_ := t:
+eta12_ := 1:
+eta34_ := -1:
+bd11_ := 1:
+bd14_ := -1/3*(-3*r+6*m+Lambda*r^3)/r:
+bd21_ := 3/2*r/(-3*r+6*m+Lambda*r^3):
+bd24_ := 1/2:
+bd32_ := 1/2*2^(1/2)*r:
+bd33_ := 1/2*I*2^(1/2)*r*sin(theta):
+bd42_ := 1/2*2^(1/2)*r:
+bd43_ := -1/2*I*2^(1/2)*r*sin(theta):
+sig_:=-2:
+constraint_:=[]:
+Info_ := `The Schwarzschild exterior metric in curvature coordinates`:
+

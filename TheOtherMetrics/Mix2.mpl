@@ -1,0 +1,17 @@
+Ndim_ :=    4   :
+x1_   :=   theta   :
+x2_   :=   phi   :
+x3_   :=   psi   :
+x4_   :=   t   :
+eta11_   :=   1   :
+eta22_   :=   1   :
+eta33_   :=   1   :
+eta44_   :=   -1   :
+bd11_   :=   exp(a(t))*cos(psi)   :
+bd12_   :=   exp(a(t))*sin(psi)*sin(theta)   :
+bd21_   :=   exp(b(t))*sin(psi)   :
+bd22_   :=   -exp(b(t))*cos(psi)*sin(theta)   :
+bd32_   :=   exp(c(t))*cos(theta)   :
+bd33_   :=   exp(c(t))   :
+bd44_   :=   exp(a(t)+b(t)+c(t))   :
+Info_   :=`Mixmaster metric (e.g. MTW Box 30.1)`:
