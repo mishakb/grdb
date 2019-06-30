@@ -1,0 +1,195 @@
+package GRDB2;
+
+import GRDB2.html.*;
+
+/**
+ */
+public class GRDBHomePage extends HtmlPage
+{
+    String ServletAddress;
+
+    public GRDBHomePage (String ServletAddress)
+    {
+        super();
+        this.ServletAddress = ServletAddress;
+
+        HtmlHead head = new HtmlHead("GRDB Spacetimes Home Page");
+//-----------------------------------------------------------------------------
+// Body
+//-----------------------------------------------------------------------------
+        HtmlBody body = new HtmlBody();
+        
+	body.addComponent(new HtmlText("<CENTER>\n"));
+
+	HtmlText title1 = new HtmlText("<Font size='+3'><b>Interactive Geometric Database</b></font><br>\n");
+        body.addComponent(title1);
+
+	HtmlText title2 = new HtmlText("<Font size='+1'>Including Exact Solutions of Einstein Field Equations</font><br>\n");
+        body.addComponent(title2);
+
+	HtmlText version = new HtmlText("<Font size='+1'><b>Version 1.0</b></font><br>\n");
+        body.addComponent(version);
+
+	HtmlText authors = new HtmlText("Initial development by <a href='http://www.astro.queensu.ca/~ishak'>Mustapha Ishak </a> and Kayll Lake (Queen's University)<br>\n");
+        body.addComponent(authors);
+
+
+        HtmlText FutureUsage = new HtmlText(" ");
+	String Spaces = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;";
+
+        // create anchors/links
+        HtmlAnchor  aClear = new HtmlAnchor("",
+                            new HtmlText("Clear Results"),
+                            ServletAddress);
+
+        String sListAllMetricsLink = ServletAddress + "?" +
+                                   GRDBProtocol.COMMAND + "=" +
+                                   GRDBProtocol.LIST_ALL;
+        HtmlAnchor  aListAllMetrics = new HtmlAnchor("",
+                                    new HtmlText("List All Metrics"),
+                                    sListAllMetricsLink);
+
+        String sPrivateInputLink = ServletAddress + "?" +
+                              GRDBProtocol.COMMAND + "=" +
+                              GRDBProtocol.PRIVATE;
+        HtmlAnchor  aPrivateInput = new HtmlAnchor("",
+                               new HtmlText("Private Input"),
+                               sPrivateInputLink);
+
+        String sAbout = "http://130.15.26.66/~postgres/aboutgrdb.html";
+        HtmlAnchor  aAbout = new HtmlAnchor("",
+                               new HtmlText("About The Database"),
+                               sAbout);
+
+        String sHow = "http://130.15.26.66/~postgres/howgrdb.html";
+        HtmlAnchor  aHow = new HtmlAnchor("",
+                               new HtmlText("&nbsp;&nbsp;"+"How To Use The Database"+"&nbsp;&nbsp;"),
+                               sHow);
+
+        String sPublicInput = "http://130.15.26.66/~postgres/publicinput.html";
+        HtmlAnchor  aPublicInput = new HtmlAnchor("",
+                               new HtmlText("&nbsp;&nbsp;"+"Public Input"+"&nbsp;&nbsp;"),
+                               sPublicInput);
+
+//----------------------------------------------------------------------------
+// add operations and help items to Menu Here
+//----------------------------------------------------------------------------
+
+        HtmlTableWithBorder Operations = new HtmlTableWithBorder();
+        HtmlTableRow OperRows[] = new HtmlTableRow[10];
+
+        HtmlTableCell cells[][] = new HtmlTableCell[10][2];
+
+        OperRows[0] = new HtmlTableRow();
+        OperRows[1] = new HtmlTableRow();
+        OperRows[2] = new HtmlTableRow();
+        OperRows[3] = new HtmlTableRow();
+        OperRows[4] = new HtmlTableRow();
+        OperRows[5] = new HtmlTableRow();
+        OperRows[6] = new HtmlTableRow();
+        OperRows[7] = new HtmlTableRow();
+        OperRows[8] = new HtmlTableRow();
+        OperRows[9] = new HtmlTableRow();
+
+        cells[0][0] = new HtmlTableCell(aAbout);
+        cells[1][0] = new HtmlTableCell(aHow);
+        cells[2][0] = new HtmlTableCell(aClear);
+        cells[3][0] = new HtmlTableCell(FutureUsage);
+        cells[4][0] = new HtmlTableCell(FutureUsage);
+        cells[5][0] = new HtmlTableCell(FutureUsage);
+        cells[6][0] = new HtmlTableCell(FutureUsage);
+        cells[7][0] = new HtmlTableCell(FutureUsage);
+        cells[8][0] = new HtmlTableCell(FutureUsage);
+        cells[9][0] = new HtmlTableCell(FutureUsage);
+
+
+        cells[0][1] = new HtmlTableCell(aListAllMetrics);
+        cells[1][1] = new HtmlTableCell(aPublicInput);
+        cells[2][1] = new HtmlTableCell(aPrivateInput);
+        cells[3][1] = new HtmlTableCell(FutureUsage);
+        cells[4][1] = new HtmlTableCell(FutureUsage);
+        cells[5][1] = new HtmlTableCell(FutureUsage);
+        cells[6][1] = new HtmlTableCell(FutureUsage);
+        cells[7][1] = new HtmlTableCell(FutureUsage);
+        cells[8][1] = new HtmlTableCell(FutureUsage);
+        cells[9][1] = new HtmlTableCell(FutureUsage);
+
+
+
+        OperRows[0].addParameter("ALIGN=\"CENTER\"");
+        OperRows[0].addCell(cells[0][0]);
+        OperRows[0].addCell(cells[0][1]);
+        OperRows[1].addParameter("ALIGN=\"CENTER\"");
+        OperRows[1].addCell(cells[1][0]);
+        OperRows[1].addCell(cells[1][1]);
+        OperRows[2].addParameter("ALIGN=\"CENTER\"");
+        OperRows[2].addCell(cells[2][0]);
+        OperRows[2].addCell(cells[2][1]);
+        OperRows[3].addParameter("ALIGN=\"CENTER\"");
+        OperRows[3].addCell(cells[3][0]);
+        OperRows[3].addCell(cells[3][1]);
+        OperRows[4].addParameter("ALIGN=\"CENTER\"");
+        OperRows[4].addCell(cells[4][0]);
+        OperRows[4].addCell(cells[4][1]);
+        OperRows[5].addParameter("ALIGN=\"CENTER\"");
+        OperRows[5].addCell(cells[5][0]);
+        OperRows[5].addCell(cells[5][1]);
+        OperRows[6].addParameter("ALIGN=\"CENTER\"");
+        OperRows[6].addCell(cells[6][0]);
+        OperRows[6].addCell(cells[6][1]);
+        OperRows[7].addParameter("ALIGN=\"CENTER\"");
+        OperRows[7].addCell(cells[7][0]);
+        OperRows[7].addCell(cells[7][1]);
+        OperRows[8].addParameter("ALIGN=\"CENTER\"");
+        OperRows[8].addCell(cells[8][0]);
+        OperRows[8].addCell(cells[8][1]);
+        OperRows[9].addParameter("ALIGN=\"CENTER\"");
+        OperRows[9].addCell(cells[9][0]);
+        OperRows[9].addCell(cells[9][1]);
+
+        Operations.addRow(OperRows[0]);
+        Operations.addRow(OperRows[1]);
+        Operations.addRow(OperRows[2]);
+/*
+        Operations.addRow(OperRows[3]);
+        Operations.addRow(OperRows[4]);
+        Operations.addRow(OperRows[5]);
+        Operations.addRow(OperRows[6]);
+        Operations.addRow(OperRows[7]);
+        Operations.addRow(OperRows[8]);
+        Operations.addRow(OperRows[9]);
+*/
+        body.addHtml("<CENTER>");
+        body.addComponent(Operations);
+
+//----------------------------------------------------------------------------
+//  Search Form Here 
+//----------------------------------------------------------------------------
+
+        MetricsSearchForm  searchForm = new MetricsSearchForm(ServletAddress);
+        body.addComponent(searchForm);
+        body.addHtml("<HR SIZE=2>"); 
+
+//----------------------------------------------------------------------------
+// Calculator GRTensorJ Applet
+//----------------------------------------------------------------------------
+        CalculatorForm  Calcform = new CalculatorForm(ServletAddress);
+        body.addComponent(Calcform);
+	body.addHtml("</CENTER>");
+        body.addHtml("<HR SIZE=2>"); 
+
+//----------------------------------------------------------------------------
+//  Petrov Form Here 
+//----------------------------------------------------------------------------
+
+//        PetrovSearchForm  petrovForm = new PetrovSearchForm(ServletAddress);
+//        body.addComponent(petrovForm);
+//        body.addHtml("<HR SIZE=2>"); 
+
+
+        setHead(head);
+        setBody(body);
+    }
+}
+
+
