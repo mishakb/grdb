@@ -1,0 +1,10 @@
+\documentclass{article}
+\begin{document}
+$
+2\,\mbox {{\tt ` d`}}\,{r}^{\mbox {{\tt ` `}}}\mbox {{\tt `d `}}\,{v}^
+{\mbox {{\tt ` `}}}+\left (-1+2\,{\frac {m}{r}}\right )\mbox {{\tt 
+` d`}}\,{v}^{\mbox {{\tt `2 `}}}+{r}^{2}\mbox {{\tt ` d`}}\,{\theta}^{
+\mbox {{\tt `2 `}}}+{r}^{2}\left (\sin(\theta)\right )^{2}\mbox {{\tt 
+` d`}}\,{\phi}^{\mbox {{\tt `2 `}}}
+$
+\end{document}

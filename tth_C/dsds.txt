@@ -1,0 +1,5 @@
+\mbox {{\tt ` d`}}\,{r}^{\mbox {{\tt `2 `}}}\left (1-2\,{\frac {m}{r}}
+\right )^{-1}+{r}^{2}\mbox {{\tt ` d`}}\,{\theta}^{\mbox {{\tt `2 `}}}
++{r}^{2}\left (\sin(\theta)\right )^{2}\mbox {{\tt ` d`}}\,{\phi}^{
+\mbox {{\tt `2 `}}}+\left (-1+2\,{\frac {m}{r}}\right )\mbox {{\tt 
+` d`}}\,{t}^{\mbox {{\tt `2 `}}}

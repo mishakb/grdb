@@ -1,0 +1,17 @@
+\documentclass{article}
+\begin{document}
+$
+-2\,\mbox {{\tt ` d`}}\,{u}^{\mbox {{\tt ` `}}}\mbox {{\tt `d `}}\,{v}
+^{\mbox {{\tt ` `}}}-2\,a\left (-y+2\,v\right )\mbox {{\tt ` d`}}\,{u}
+^{\mbox {{\tt ` `}}}\mbox {{\tt `d `}}\,{x}^{\mbox {{\tt ` `}}}-2\,
+\mbox {{\tt ` d`}}\,{u}^{\mbox {{\tt ` `}}}\mbox {{\tt `d `}}\,{y}^{
+\mbox {{\tt ` `}}}-2\,a\left (2\,u-y\right )\mbox {{\tt ` d`}}\,{v}^{
+\mbox {{\tt ` `}}}\mbox {{\tt `d `}}\,{x}^{\mbox {{\tt ` `}}}-2\,
+\mbox {{\tt ` d`}}\,{v}^{\mbox {{\tt ` `}}}\mbox {{\tt `d `}}\,{y}^{
+\mbox {{\tt ` `}}}+\left (3/2+4\,{a}^{2}vu+6\,{a}^{2}{v}^{2}+6\,{a}^{2
+}{u}^{2}+4\,{a}^{2}yu+2\,{a}^{2}{y}^{2}+4\,{a}^{2}vy\right )\mbox {{
+\tt ` d`}}\,{x}^{\mbox {{\tt `2 `}}}+2\,a\left (v+u+2\,y\right )\mbox 
+{{\tt ` d`}}\,{x}^{\mbox {{\tt ` `}}}\mbox {{\tt `d `}}\,{y}^{\mbox {{
+\tt ` `}}}-1/2\,\mbox {{\tt ` d`}}\,{y}^{\mbox {{\tt `2 `}}}
+$
+\end{document}

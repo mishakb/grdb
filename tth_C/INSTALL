@@ -1,0 +1,5 @@
+Compile the code by, for example
+
+gcc -o tth tth.c
+
+Copy the executable, tth, to somewhere on your path, e.g. /usr/local/bin/

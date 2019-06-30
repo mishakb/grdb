@@ -1,0 +1,9 @@
+\documentclass{article}
+\begin{document}
+$
+{\frac {{b}^{2}\mbox {{\tt ` d`}}\,{r}^{\mbox {{\tt `2 `}}}}{{r}^{2}}}
++{b}^{2}\mbox {{\tt ` d`}}\,{\theta}^{\mbox {{\tt `2 `}}}-\left (1+a
+\ln (r)-a\ln (b)\right )^{2}\mbox {{\tt ` d`}}\,{t}^{\mbox {{\tt `2 `}
+}}
+$
+\end{document}

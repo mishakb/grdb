@@ -1,0 +1,522 @@
+cat tex1 > tempo
+cat Chan >> tempo
+cat tex2 >> tempo
+rm Chan
+
+cat tempo > Chan
+cat tex1 > tempo
+cat Ckvec >> tempo
+cat tex2 >> tempo
+rm Ckvec
+
+cat tempo > Ckvec
+cat tex1 > tempo
+cat CmetricStat >> tempo
+cat tex2 >> tempo
+rm CmetricStat
+
+cat tempo > CmetricStat
+cat tex1 > tempo
+cat Confflat >> tempo
+cat tex2 >> tempo
+rm Confflat
+
+cat tempo > Confflat
+cat tex1 > tempo
+cat Deb >> tempo
+cat tex2 >> tempo
+rm Deb
+
+cat tempo > Deb
+cat tex1 > tempo
+cat Diag3 >> tempo
+cat tex2 >> tempo
+rm Diag3
+
+cat tempo > Diag3
+cat tex1 > tempo
+cat Dmt  >> tempo
+cat tex2 >> tempo
+rm Dmt
+
+cat tempo > Dmt
+cat tex1 > tempo
+cat Dust2 >> tempo
+cat tex2 >> tempo
+rm Dust2
+
+cat tempo > Dust2
+cat tex1 > tempo
+cat Efs >> tempo
+cat tex2 >> tempo
+rm Efs
+
+cat tempo > Efs
+cat tex1 > tempo
+cat Efsi >> tempo
+cat tex2 >> tempo
+rm Efsi
+
+cat tempo > Efsi
+cat tex1 > tempo
+cat Godel >> tempo
+cat tex2 >> tempo
+rm Godel
+
+cat tempo > Godel
+cat tex1 > tempo
+cat Grif >> tempo
+cat tex2 >> tempo
+rm Grif
+
+cat tempo > Grif
+cat tex1 > tempo
+cat Hedge >> tempo
+cat tex2 >> tempo
+rm Hedge
+
+cat tempo > Hedge
+cat tex1 > tempo
+cat Kawai >> tempo
+cat tex2 >> tempo
+rm Kawai
+
+cat tempo > Kawai
+cat tex1 > tempo
+cat Kerr >> tempo
+cat tex2 >> tempo
+rm Kerr
+
+cat tempo > Kerr
+cat tex1 > tempo
+cat Kn1 >> tempo
+cat tex2 >> tempo
+rm Kn1
+
+cat tempo > Kn1
+cat tex1 > tempo
+cat Kn2 >> tempo
+cat tex2 >> tempo
+rm Kn2
+
+cat tempo > Kn2
+cat tex1 > tempo
+cat Kn3 >> tempo
+cat tex2 >> tempo
+rm Kn3
+
+cat tempo > Kn3
+cat tex1 > tempo
+cat Kn4 >> tempo
+cat tex2 >> tempo
+rm Kn4
+
+cat tempo > Kn4
+cat tex1 > tempo
+cat Kn5 >> tempo
+cat tex2 >> tempo
+rm Kn5
+
+cat tempo > Kn5
+cat tex1 > tempo
+cat Kn6 >> tempo
+cat tex2 >> tempo
+rm Kn6
+
+cat tempo > Kn6
+cat tex1 > tempo
+cat Krn >> tempo
+cat tex2 >> tempo
+rm Krn
+
+cat tempo > Krn
+cat tex1 > tempo
+cat Kro >> tempo
+cat tex2 >> tempo
+rm Kro
+
+cat tempo > Kro
+cat tex1 > tempo
+cat Kruskal1 >> tempo
+cat tex2 >> tempo
+rm Kruskal1
+
+cat tempo > Kruskal1
+cat tex1 > tempo
+cat Lake >> tempo
+cat tex2 >> tempo
+rm Lake
+
+cat tempo > Lake
+cat tex1 > tempo
+cat Lew >> tempo
+cat tex2 >> tempo
+rm Lew
+
+cat tempo > Lew
+cat tex1 > tempo
+cat Mink1 >> tempo
+cat tex2 >> tempo
+rm Mink1
+
+cat tempo > Mink1
+cat tex1 > tempo
+cat Mink2 >> tempo
+cat tex2 >> tempo
+rm Mink2
+
+cat tempo > Mink2
+cat tex1 > tempo
+cat Mink3 >> tempo
+cat tex2 >> tempo
+rm Mink3
+
+cat tempo > Mink3
+cat tex1 > tempo
+cat Mink4 >> tempo
+cat tex2 >> tempo
+rm Mink4
+
+cat tempo > Mink4
+cat tex1 > tempo
+cat Mink5 >> tempo
+cat tex2 >> tempo
+rm Mink5
+
+cat tempo > Mink5
+cat tex1 > tempo
+cat Mix1g >> tempo
+cat tex2 >> tempo
+rm Mix1g
+
+cat tempo > Mix1g
+cat tex1 > tempo
+cat Mix2g >> tempo
+cat tex2 >> tempo
+rm Mix2g
+
+cat tempo > Mix2g
+cat tex1 > tempo
+cat Mix3g >> tempo
+cat tex2 >> tempo
+rm Mix3g
+
+cat tempo > Mix3g
+cat tex1 > tempo
+cat Mixg >> tempo
+cat tex2 >> tempo
+rm Mixg
+
+cat tempo > Mixg
+cat tex1 > tempo
+cat Nariai >> tempo
+cat tex2 >> tempo
+rm Nariai
+
+cat tempo > Nariai
+cat tex1 > tempo
+cat Newkerr >> tempo
+cat tex2 >> tempo
+rm Newkerr
+
+cat tempo > Newkerr
+cat tex1 > tempo
+cat Newkn >> tempo
+cat tex2 >> tempo
+rm Newkn
+
+cat tempo > Newkn
+cat tex1 > tempo
+cat Schw >> tempo
+cat tex2 >> tempo
+rm Schw
+
+cat tempo > Schw
+cat tex1 > tempo
+cat SchwL >> tempo
+cat tex2 >> tempo
+rm SchwL
+
+cat tempo > SchwL
+cat tex1 > tempo
+cat Sdiag >> tempo
+cat tex2 >> tempo
+rm Sdiag
+
+cat tempo > Sdiag
+cat tex1 > tempo
+cat Sdiag1 >> tempo
+cat tex2 >> tempo
+rm Sdiag1
+
+cat tempo > Sdiag1
+cat tex1 > tempo
+cat Sdmt >> tempo
+cat tex2 >> tempo
+rm Sdmt
+
+cat tempo > Sdmt
+cat tex1 > tempo
+cat Ss1 >> tempo
+cat tex2 >> tempo
+rm Ss1
+
+cat tempo > Ss1
+cat tex1 > tempo
+cat Ss1m >> tempo
+cat tex2 >> tempo
+rm Ss1m
+
+cat tempo > Ss1m
+cat tex1 > tempo
+cat Ss2 >> tempo
+cat tex2 >> tempo
+rm Ss2
+
+cat tempo > Ss2
+cat tex1 > tempo
+cat Ss3 >> tempo
+cat tex2 >> tempo
+rm Ss3
+
+cat tempo > Ss3
+cat tex1 > tempo
+cat Stephani >> tempo
+cat tex2 >> tempo
+rm Stephani
+
+cat tempo > Stephani
+cat tex1 > tempo
+cat Tosa >> tempo
+cat tex2 >> tempo
+rm Tosa
+
+cat tempo > Tosa
+cat tex1 > tempo
+cat Vdust >> tempo
+cat tex2 >> tempo
+rm Vdust
+
+cat tempo > Vdust
+cat tex1 > tempo
+cat bianchi1 >> tempo
+cat tex2 >> tempo
+rm bianchi1
+
+cat tempo > bianchi1
+cat tex1 > tempo
+cat bondig >> tempo
+cat tex2 >> tempo
+rm bondig
+
+cat tempo > bondig
+cat tex1 > tempo
+cat Bondig1 >> tempo
+cat tex2 >> tempo
+rm Bondig1
+
+cat tempo > Bondig1
+cat tex1 > tempo
+cat bondis >> tempo
+cat tex2 >> tempo
+rm bondis
+
+cat tempo > bondis
+cat tex1 > tempo
+cat boyerlindquistkerr >> tempo
+cat tex2 >> tempo
+rm boyerlindquistkerr
+
+cat tempo > boyerlindquistkerr
+cat tex1 > tempo
+cat boyerlindquistkerrnewman >> tempo
+cat tex2 >> tempo
+rm boyerlindquistkerrnewman
+
+cat tempo > boyerlindquistkerrnewman
+cat tex1 > tempo
+cat debever >> tempo
+cat tex2 >> tempo
+rm debever
+
+cat tempo > debever
+cat tex1 > tempo
+cat dust1 >> tempo
+cat tex2 >> tempo
+rm dust1
+
+cat tempo > dust1
+cat tex1 > tempo
+cat eddingtonfinkelsteinkerr >> tempo
+cat tex2 >> tempo
+rm eddingtonfinkelsteinkerr
+
+cat tempo > eddingtonfinkelsteinkerr
+cat tex1 > tempo
+cat eddingtonfinkelsteinkerrnewman >> tempo
+cat tex2 >> tempo
+rm eddingtonfinkelsteinkerrnewman
+
+cat tempo > eddingtonfinkelsteinkerrnewman
+cat tex1 > tempo
+cat efgen >> tempo
+cat tex2 >> tempo
+rm efgen
+
+cat tempo > efgen
+cat tex1 > tempo
+cat efin >> tempo
+cat tex2 >> tempo
+rm efin
+
+cat tempo > efin
+cat tex1 > tempo
+cat efout >> tempo
+cat tex2 >> tempo
+rm efout
+
+cat tempo > efout
+cat tex1 > tempo
+cat fourde >> tempo
+cat tex2 >> tempo
+rm fourde
+
+cat tempo > fourde
+cat tex1 > tempo
+cat israel >> tempo
+cat tex2 >> tempo
+rm israel
+
+cat tempo > israel
+cat tex1 > tempo
+cat kerrcartesian >> tempo
+cat tex2 >> tempo
+rm kerrcartesian
+
+cat tempo > kerrcartesian
+cat tex1 > tempo
+cat kerrcartesianm >> tempo
+cat tex2 >> tempo
+rm kerrcartesianm
+
+cat tempo > kerrcartesianm
+cat tex1 > tempo
+cat kerrnewmancartesian  >> tempo
+cat tex2 >> tempo
+rm kerrnewmancartesian
+
+cat tempo > kerrnewmancartesian
+cat tex1 > tempo
+cat kerrnewmancartesianm >> tempo
+cat tex2 >> tempo
+rm kerrnewmancartesianm
+
+cat tempo > kerrnewmancartesianm
+cat tex1 > tempo
+cat kerru >> tempo
+cat tex2 >> tempo
+rm kerru
+
+cat tempo > kerru
+cat tex1 > tempo
+cat km >> tempo
+cat tex2 >> tempo
+rm km
+
+cat tempo > km
+cat tex1 > tempo
+cat kruskalnull >> tempo
+cat tex2 >> tempo
+rm kruskalnull
+
+cat tempo > kruskalnull
+cat tex1 > tempo
+cat kruskaloriginal >> tempo
+cat tex2 >> tempo
+rm kruskaloriginal
+
+cat tempo > kruskaloriginal
+cat tex1 > tempo
+cat minkowski >> tempo
+cat tex2 >> tempo
+rm minkowski
+
+cat tempo > minkowski
+cat tex1 > tempo
+cat minkowskialt1 >> tempo
+cat tex2 >> tempo
+rm minkowskialt1
+
+cat tempo > minkowskialt1
+cat tex1 > tempo
+cat minkowskinulla >> tempo
+cat tex2 >> tempo
+rm minkowskinulla
+
+cat tempo > minkowskinulla
+cat tex1 > tempo
+cat minkowskinullb >> tempo
+cat tex2 >> tempo
+rm minkowskinullb
+
+cat tempo > minkowskinullb
+cat tex1 > tempo
+cat minkowskipolar >> tempo
+cat tex2 >> tempo
+rm minkowskipolar
+
+cat tempo > minkowskipolar
+cat tex1 > tempo
+cat planewave >> tempo
+cat tex2 >> tempo
+rm planewave
+
+cat tempo > planewave
+cat tex1 > tempo
+cat rnds >> tempo
+cat tex2 >> tempo
+rm rnds
+
+cat tempo > rnds
+cat tex1 > tempo
+cat rw1 >> tempo
+cat tex2 >> tempo
+rm rw1
+
+cat tempo > rw1
+cat tex1 > tempo
+cat schwarzschild >> tempo
+cat tex2 >> temp
+rm schwarzschild
+
+cat tempo > schwarzschild
+cat tex1 > tempo
+cat schwarzschildl >> tempo
+cat tex2 >> temp
+rm schwarzschildl 
+
+cat tempo > schwarzschildl 
+cat tex1 > tempo
+cat taubnut >> tempo
+cat tex2 >> tempo
+rm taubnut
+
+cat tempo > taubnut
+cat tex1 > tempo
+cat vacudust >> tempo
+cat tex2 >> tempo
+rm vacudust
+
+cat tempo > vacudust
+cat tex1 > tempo
+cat vaidyaa >> tempo
+cat tex2 >> tempo
+rm vaidyaa
+
+cat tempo > vaidyaa
+cat tex1 > tempo
+cat vaidyar >> tempo
+cat tex2 >> tempo
+rm vaidyar
+
+cat tempo > vaidyar

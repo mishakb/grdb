@@ -1,0 +1,13 @@
+\documentclass{article}
+\begin{document}
+$
+\left (N(x,y)-L(x,y)\right )\left (N(x,y)+L(x,y)\right )\mbox {{\tt 
+` d`}}\,{t}^{\mbox {{\tt `2 `}}}+2\,\left (P(x,y)N(x,y)-M(x,y)L(x,y)
+\right )\mbox {{\tt ` d`}}\,{t}^{\mbox {{\tt ` `}}}\mbox {{\tt `d `}}
+\,{z}^{\mbox {{\tt ` `}}}+\left (P(x,y)-M(x,y)\right )\left (P(x,y)+M(
+x,y)\right )\mbox {{\tt ` d`}}\,{z}^{\mbox {{\tt `2 `}}}+{\frac {
+\left (S(x,y)\right )^{2}\mbox {{\tt ` d`}}\,{y}^{\mbox {{\tt `2 `}}}}
+{\left (Y(y)\right )^{2}}}+{\frac {\left (S(x,y)\right )^{2}\mbox {{
+\tt ` d`}}\,{x}^{\mbox {{\tt `2 `}}}}{\left (X(x)\right )^{2}}}
+$
+\end{document}

@@ -1,0 +1,60 @@
+{VERSION 3 0 "DEC ALPHA UNIX" "3.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 0 
+0 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Text Output" -1 2 1 
+{CSTYLE "" -1 -1 "Courier" 1 10 0 0 255 1 0 0 0 0 0 1 3 0 3 }1 0 0 -1 
+-1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Heading 1" 0 3 1 {CSTYLE "" -1 -1 "" 
+1 18 0 0 0 0 0 1 0 0 0 0 0 0 0 }1 0 0 0 8 4 0 0 0 0 0 0 -1 0 }{PSTYLE 
+"Warning" 2 7 1 {CSTYLE "" -1 -1 "" 0 1 0 0 255 1 0 0 0 0 0 0 1 0 0 }
+0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Error" 7 8 1 {CSTYLE "" -1 
+-1 "" 0 1 255 0 255 1 0 0 0 0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 
+-1 0 }{PSTYLE "Maple Output" 0 11 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 }3 3 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "restart; grtw();" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%=GRTensorII~Version~1.76~(R5)G" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%13~November~1999~G" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#%ZDeveloped~by~Peter~Musgrave,~Denis~Pollney~and~Kayl
+l~LakeG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%DCopyright~1994-1999~by~th
+e~authors.G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%\\oLatest~version~avai
+lable~from:~http://astro.queensu.ca/|irgrtensor/G" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%N/home/postgres/public_html/GRTensorJ2/MetricsG" }}}
+{EXCHG {PARA 11 "" 1 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 1 "\n" }}}{SECT 0 {PARA 3 "" 0 "" {TEXT -1 0 "" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 2275 "qload(B1):latex(grcomponent(ds,[]
+),B1);\nqload(B2):latex(grcomponent(ds,[]),B2);\nqload(BTZ):latex(grco
+mponent(ds,[]),BTZ);\nqload(CHAN3HM):latex(grcomponent(ds,[]),CHAN3HM)
+;\nqload( CONFSTAT):latex(grcomponent(ds,[]),CONFSTAT );\nqload( DINGL
+E):latex(grcomponent(ds,[]),DINGLE );\nqload( EX):latex(grcomponent(ds
+,[]),EX );\nqload(EY ):latex(grcomponent(ds,[]),EY );\nqload(FIVED ):l
+atex(grcomponent(ds,[]),FIVED );\nqload(FIVEDS ):latex(grcomponent(ds,
+[]),FIVEDS );\nqload(FOURD ):latex(grcomponent(ds,[]),FOURD );\nqload(
+GAMMAS ):latex(grcomponent(ds,[]),GAMMAS );\nqload( GENTHPH):latex(grc
+omponent(ds,[]), GENTHPH);\nqload(GODEL1 ):latex(grcomponent(ds,[]),GO
+DEL1 );\nqload(HERRMAN ):latex(grcomponent(ds,[]),HERRMAN );\nqload( K
+1):latex(grcomponent(ds,[]),K1 );\nqload( K2):latex(grcomponent(ds,[])
+,K2 );\nqload( K3):latex(grcomponent(ds,[]),K3 );\nqload( K4):latex(gr
+component(ds,[]),K4 );\nqload( K5):latex(grcomponent(ds,[]),K5 );\nqlo
+ad( K6):latex(grcomponent(ds,[]),K6 );\nqload( KRUSKALO):latex(grcompo
+nent(ds,[]),KRUSKALO );\nqload(LPSCHW ):latex(grcomponent(ds,[]),LPSCH
+W );\nqload(NIPE ):latex(grcomponent(ds,[]),NIPE );\nqload(NNULL ):lat
+ex(grcomponent(ds,[]),NNULL );\nqload( NPNULL1):latex(grcomponent(ds,[
+]),NPNULL1 );\nqload(NPTEST ):latex(grcomponent(ds,[]), NPTEST);\nqloa
+d(NULL ):latex(grcomponent(ds,[]),NULL );\nqload( NULL1):latex(grcompo
+nent(ds,[]),NULL1 );\nqload(QSCHW ):latex(grcomponent(ds,[]),QSCHW );
+\nqload( RNDSQ):latex(grcomponent(ds,[]),RNDSQ );\nqload( RW ):latex(g
+rcomponent(ds,[]),RW );\nqload(RWK ):latex(grcomponent(ds,[]),RWK );\n
+qload( SCHWARZ):latex(grcomponent(ds,[]),SCHWARZ );\nqload( SDIAGA ):l
+atex(grcomponent(ds,[]),SDIAGA );\nqload( SM):latex(grcomponent(ds,[])
+,SM );\nqload(SPHERE ):latex(grcomponent(ds,[]),SPHERE );\nqload(STATI
+C ):latex(grcomponent(ds,[]), STATIC  );\nqload( STATICS):latex(grcomp
+onent(ds,[]),STATICS );\nqload( SURF):latex(grcomponent(ds,[]),SURF );
+\nqload(TARTAR ):latex(grcomponent(ds,[]), TARTAR);\nqload( TEST):late
+x(grcomponent(ds,[]), TEST);\nqload(THREED ):latex(grcomponent(ds,[]),
+THREED );\nqload(TWOD ):latex(grcomponent(ds,[]),TWOD  );\nqload( TWOD
+G1):latex(grcomponent(ds,[]), TWODG1 );\nqload(TWODN ):latex(grcompone
+nt(ds,[]), TWODN );\nqload(TWODS ):latex(grcomponent(ds,[]),TWODS  );
+\nqload(TWOSP ):latex(grcomponent(ds,[]), TWOSP );\n" }}{PARA 8 "" 1 "
+" {TEXT -1 14 "`)` unexpected" }}}}}{MARK "3 1 0 0" 6 }{VIEWOPTS 1 1 
+0 1 1 1803 }
