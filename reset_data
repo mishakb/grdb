@@ -1,0 +1,2 @@
+#!/bin/bash
+psql -U postgres -d grdbi -f metrics.sql > /dev/null

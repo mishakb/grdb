@@ -1,9 +1,8 @@
 .envrc
 .tags
 TAGS
-logs
-src
-lib
-reset_tomcat
-reset_data
-WEB-INF/classes
+./lib
+./logs
+./reset_tomcat
+./reset_data
+./WEB-INF/classes

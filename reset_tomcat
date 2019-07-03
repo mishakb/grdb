@@ -1,0 +1,3 @@
+#!/bin/sh
+service tomcat8 restart
+service grtensorj restart
