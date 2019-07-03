@@ -1,0 +1,41 @@
+<project name="grdb" default="dist" basedir=".">
+  <description>
+    Compile and build GRDB servlet and GRTensorJ by Tomcat 8 standards.
+  </description>
+  <property name="src" location="WEB-INF/src"/>
+  <property name="build" location="WEB-INF/classes"/>
+  <property name="dist" location="lib"/>
+
+  <target name="init">
+    <mkdir dir="${build}"/>
+  </target>
+
+  <target name="compile" depends="init">
+    <javac includeantruntime="false"
+      debug="true" verbose="true"
+      srcdir="${src}" destdir="${build}">
+      <classpath>
+        <pathelement path="${classpath}"/>
+        <fileset dir="WEB-INF/lib">
+          <include name="**/*.jar"/>
+        </fileset>
+      </classpath>
+      <compilerarg line="-s ${build}"/>
+    </javac>
+  </target>
+
+  <target name="dist" depends="compile">
+    <tstamp/>
+    <mkdir dir="${dist}"/>
+    <jar jarfile="${dist}/grdb.jar" basedir="${build}"/>
+  </target>
+
+  <target name="clean">
+    <delete dir="${build}"/>
+    <delete dir="${dist}"/>
+  </target>
+
+  <target name="all" depends="clean,dist">
+  </target>
+
+</project>

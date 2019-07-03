@@ -1,9 +1,0 @@
-\documentclass{article}
-\begin{document}
-$
-\mbox {{\tt ` d`}}\,{{\it x1}}^{\mbox {{\tt `2 `}}}+\mbox {{\tt ` d`}}
-\,{{\it x2}}^{\mbox {{\tt `2 `}}}+\mbox {{\tt ` d`}}\,{{\it x3}}^{
-\mbox {{\tt `2 `}}}+\mbox {{\tt ` d`}}\,{{\it x4}}^{\mbox {{\tt `2 `}}
-}
-$
-\end{document}

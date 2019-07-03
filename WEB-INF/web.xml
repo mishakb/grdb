@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app>
+  <servlet>
+    <servlet-name>GRDB2</servlet-name>
+    <servlet-class>GRDB2.GRDBServlet</servlet-class>
+    <description>
+      General Relativity Database of Exact Solutions to Einstein's Field Equations.
+    </description>
+    <!--
+    <init-param>
+      <param-name>home</param-name>
+      <param-value>GRDB2.GRDBHomePage</param-value>
+    </init-param>
+    -->
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GRDB2</servlet-name>
+    <url-pattern>/home</url-pattern>
+  </servlet-mapping>
+</web-app>

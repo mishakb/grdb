@@ -1,9 +1,0 @@
-\documentclass{article}
-\begin{document}
-$
-C(x,y,z,t)\mbox {{\tt ` d`}}\,{x}^{\mbox {{\tt `2 `}}}+C(x,y,z,t)
-\mbox {{\tt ` d`}}\,{y}^{\mbox {{\tt `2 `}}}+C(x,y,z,t)\mbox {{\tt 
-` d`}}\,{z}^{\mbox {{\tt `2 `}}}-C(x,y,z,t)\mbox {{\tt ` d`}}\,{t}^{
-\mbox {{\tt `2 `}}}
-$
-\end{document}
