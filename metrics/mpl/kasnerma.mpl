@@ -1,0 +1,14 @@
+Ndim_ := 4:
+x1_ := t:
+x2_ := x:
+x3_ := y:
+x4_ := z:
+sig_ := 2:
+complex_ := {}:
+g11_ := -1:
+g22_ := t^(4/3):
+g33_ := t^(4/3):
+g44_ := t^(-2/3):
+constraint_ := [ ]:
+Info_ := `Kasner power-law vacuum solution. Axisymmetric case.`:
+Ref_ := ["ajm, v43, p217, (1921)"]:

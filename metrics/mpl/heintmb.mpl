@@ -1,0 +1,14 @@
+Ndim_ := 4:
+x1_ := t:
+x2_ := r:
+x3_ := theta:
+x4_ := phi:
+sig_ := 2:
+complex_ := {}:
+g11_ := -(A+B*r^3)^2:
+g22_ := U^2/(A-2*B*r^3-2*C*r^2)^2:
+g33_ := r^2:
+g44_ := r^2*sin(theta)^2:
+constraint_ := [ ]:
+Info_ := `A static spherically symmetric perfect fluid solution of Heintzmann`:
+Ref_ := ["Heintzmann, zp, v228, pp489-493, (1969)"]:

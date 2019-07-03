@@ -1,0 +1,2 @@
+*qload(npminkowski);
+

@@ -1,0 +1,20 @@
+Ndim_ := 4:
+x1_ := x:
+x2_ := y:
+x3_ := z:
+x4_ := t:
+sig_ := -2:
+complex_ := {}:
+eta12_ := 1:
+eta34_ := -1:
+b11_ := 1:
+b14_ := 1:
+b21_ := -1/2:
+b24_ := 1/2:
+b32_ := 1/2*I*2^(1/2):
+b33_ := 1/2*2^(1/2):
+b42_ := -1/2*I*2^(1/2):
+b43_ := 1/2*2^(1/2):
+constraint_ := []:
+Info_ := `Contravariant NP tetrad for Minkowski space in Cartesian coordinates`:
+

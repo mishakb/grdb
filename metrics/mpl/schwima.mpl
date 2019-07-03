@@ -1,0 +1,15 @@
+Ndim_ := 4:
+x1_ := t:
+x2_ := r:
+x3_ := theta:
+x4_ := phi:
+sig_ := 2:
+complex_ := {}:
+g11_ := -(A-B*(sqrt(1-r^2/R^2)))^2:
+g22_ := 1/(1-r^2/R^2):
+g33_ := r^2:
+g44_ := r^2*sin(theta)^2:
+constraint_ := [ ]:
+Info_ := `Schwarzschild interior solution in curvature coordinates`:
+Ref_ := ["Schwarzschild, spaw, p424, (1916)"]:
+Archive1_ := `(14.14) p164`:

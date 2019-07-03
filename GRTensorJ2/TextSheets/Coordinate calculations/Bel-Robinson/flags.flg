@@ -1,0 +1,6 @@
+T(dn,dn,dn,dn)
+T(up,dn,dn,dn)
+T(up,up,dn,dn)
+T(up,up,up,dn)
+T(up,up,up,up)
+

@@ -1,0 +1,15 @@
+Ndim_ := 4:
+x1_ := t:
+x2_ := z:
+x3_ := r:
+x4_ := phi:
+sig_ := 2:
+complex_ := {}:
+g11_ := -r^2*z^2:
+g22_ := z:
+g33_ := z^2:
+g44_ := 1/z:
+constraint_ := [ ]:
+Info_ := `Levi-Civita Solution, Class BIII`:
+Ref_ := ["Levi-Civita, ral, v26-28"]:
+Archive1_ := `p188 Table 16.2, Class BIII`:

@@ -1,0 +1,3 @@
+grcalc(Ricciscalar);
+*grdisplay(Ricciscalar);
+

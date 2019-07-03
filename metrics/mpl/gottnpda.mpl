@@ -1,0 +1,19 @@
+Ndim_ := 4:
+x1_ := t:
+x2_ := r:
+x3_ := phi:
+x4_ := z:
+complex_ := {}:
+eta12_ := 1:
+eta34_ := -1:
+bd11_ := 1:
+bd12_ := 1:
+bd21_ := 1/2:
+bd22_ := -1/2:
+bd33_ := -1/2*I*2^(1/2)*r0*sin(r/r0):
+bd34_ := -1/2*2^(1/2):
+bd43_ := 1/2*I*2^(1/2)*r0*sin(r/r0):
+bd44_ := -1/2*2^(1/2):
+constraint_ := []:
+Info_ := `Gott s interior solution for a cosmic string in "natural" co-ordinates`:
+

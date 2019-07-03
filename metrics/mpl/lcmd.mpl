@@ -1,0 +1,15 @@
+Ndim_ := 4:
+x1_ := t:
+x2_ := r:
+x3_ := theta:
+x4_ := phi:
+sig_ := 2:
+complex_ := {}:
+g11_ := -r^2*sin(theta)^2:
+g22_ := 1/(1-b/r):
+g33_ := r^2:
+g44_ := 1-b/r:
+constraint_ := [ ]:
+Info_ := `Levi-Civita Solution, Class BI`:
+Ref_ := ["Levi-Civita, ral, v26-28"]:
+Archive1_ := `p188 Table 16.2, Class BI`:

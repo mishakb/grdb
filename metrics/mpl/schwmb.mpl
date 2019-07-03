@@ -1,0 +1,16 @@
+Ndim_ := 4:
+x1_ := r:
+x2_ := u:
+x3_ := theta:
+x4_ := phi:
+sig_ := 2:
+complex_ := {}:
+g12_ := -1:
+g22_ := -(1-2*m/r):
+g33_ := r^2:
+g44_ := r^2*sin(theta)^2:
+constraint_ := [ ]:
+Info_:= `The Schwarzschild metric in outgoing Eddington-Finkelstein coordinates`:
+Ref_ := ["Eddington, nat, v113, p192, (1924)","Finkelstein, pr, 110, 965, (1958)"]:
+Archive1_ := `(13.23) p158`:  
+Archive2_ := `SchwarzschildEddFink.hnl`: 

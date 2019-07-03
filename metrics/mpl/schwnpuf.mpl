@@ -1,0 +1,19 @@
+Ndim_ := 4:
+x1_ := u:
+x2_ := v:
+x3_ := theta:
+x4_ := phi:
+sig_ := -2:
+complex_ := {}:
+eta12_ := 1:
+eta34_ := -1:
+b11_ := 1:
+b22_ := 1/8/m^2/(2*m-r(u,v))*u*v*r(u,v):
+b33_ := 1/2*I*2^(1/2)/r(u,v):
+b34_ := 1/2*2^(1/2)/r(u,v)/sin(theta):
+b43_ := -1/2*I*2^(1/2)/r(u,v):
+b44_ := 1/2*2^(1/2)/r(u,v)/sin(theta):
+constraint_ := [diff(r(u,v),u) = -2*m*(2*m-r(u,v))/r(u,v)/u, diff(r(u,v),v) = -2*m*(2*m-r(u,v))/r(u,v)/v]:
+Info_ := `Contravariant NP tetrad for null form of Kruskal Szekeres metric`:
+Ref_:=["Kruskal, pr, v119, p1743, (1960)", "Szekeres, pmd, v7, p285, (1960)"]:
+Archive1_:=`(13.25) p158`:

@@ -1,0 +1,8 @@
+#!/bin/bash
+
+SQL_TABLE_REF=ref/metrics_table.sql
+cp $SQL_TABLE_REF metrics.sql
+for file in sql/*; do
+    cat $file >> metrics.sql
+    echo >> metrics.sql
+done

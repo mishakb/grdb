@@ -1,0 +1,22 @@
+Ndim_ :=    4   :
+x1_   :=   u   :
+x2_   :=   r   :
+x3_   :=   theta   :
+x4_   :=   phi   :
+eta12_   :=   1   :
+eta34_   :=   -1   :
+sig_:=-2:
+complex_ := {}:
+b12_   :=   1   :
+b21_   :=   (r^2+a^2)/(r^2+a^2*cos(theta)^2)   :
+b22_   :=   -1/2*(r^2+a^2-2*m*r)/(r^2+a^2*cos(theta)^2)   :
+b24_   :=   a/(r^2+a^2*cos(theta)^2)   :
+b31_   :=   1/2*I*2^(1/2)/(r+I*a*cos(theta))*a*sin(theta)   :
+b33_   :=   1/2*I*2^(1/2)/(I*r-a*cos(theta))   :
+b34_   :=   -1/2*2^(1/2)/(I*r-a*cos(theta))/sin(theta)   :
+b41_   :=   -1/2*I*2^(1/2)/(r-I*a*cos(theta))*a*sin(theta)   :
+b43_   :=   1/2*I*2^(1/2)/(I*r+a*cos(theta))   :
+b44_   :=   1/2*2^(1/2)/(I*r+a*cos(theta))/sin(theta)   :
+constraint_ := [ ]:
+Info_ := `    Covariant NPtetrad Outgoing Eddington-Finkelstein form of Kerr (e.g. MTW Box 33.2)    `: 
+

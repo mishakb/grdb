@@ -1,0 +1,19 @@
+Ndim_ := 4:
+x1_ := u:
+x2_ := w:
+x3_ := theta:
+x4_ := phi:
+sig_ := -2:
+complex_ := {}:
+eta12_ := 1:
+eta34_ := -1:
+bd11_ := -1/4*w^2/m/r(u,w):
+bd12_ := -1:
+bd21_ := 1:
+bd33_ := -1/2*I*2^(1/2)*r(u,w):
+bd34_ := -1/2*2^(1/2)*r(u,w)*sin(theta):
+bd43_ := 1/2*I*2^(1/2)*r(u,w):
+bd44_ := -1/2*2^(1/2)*r(u,w)*sin(theta):
+constraint_ := [r(u,w) = 2*m+1/4*u*w/m]:
+Info_ := `Covariant NP tetrad for Israel coordinates for the Schwarzschild exterior metric`:
+Ref_:=["Israel, pr, v143, p1016, (1966)"]:

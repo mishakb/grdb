@@ -1,0 +1,14 @@
+Ndim_ := 4:
+x1_ := t:
+x2_ := x:
+x3_ := y:
+x4_ := z:
+sig_ := 2:
+complex_ := {}:
+g11_ := -cos(z)/sin(z)^(2/3):
+g22_ := sin(z)^(4/3):
+g33_ := sin(z)^(4/3):
+g44_ := 1/a^2:
+constraint_ := [ ]:
+Info_ := `Plane symmetric vaccum+lambda metric of Novotny and Horsky`:
+Ref_ := ["Novotny & Horsky, cjpb, v24, p718, (1974)"]:

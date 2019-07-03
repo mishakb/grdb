@@ -1,0 +1,3 @@
+grcalc(constraint):
+*grdisplay(_);
+

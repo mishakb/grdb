@@ -1,0 +1,61 @@
+References
+==========
+
+Format:
+
+Ref_:=["a",...,"z"]:
+
+each entry is of the form
+
+a=name, b, vm, pn, (y)
+
+b is a shortform from the following list
+v is volume number m is the number
+p is page number n the number
+y is the year
+
+{aaa}    { Astron. Astrophys.}
+{aip}    { Adv. Phys.}
+{adm}    { Adv. Math.}
+{am}     { Ann. Math.}
+{apny}   { Ann. Phys. (N.Y.)}
+{apj}    { Astrophys. J.}
+{apjs}   { Astrophys. J. Suppl.}
+{assbia} { Ann. Soc. Sci. Bruxelles I A}
+{cjp}    { Can. J. Phys.}
+{cmp}    { Commun. Math. Phys.}
+{cqg}    { Class. Quantum Grav.}
+{faa}    { Funct. Anal. Appl.}
+{grg}    { Gen. Rel. Grav.}
+{gr-qc}  { gr-qc}
+{ijmpd}  { Int. J. Mod. Phys. D}
+{ijtp}   { Int. J. Theor. Phys.}
+{invm}   { Invent. Math.}
+{jm}     { J. Math.}
+{jmp}    { J. Math. Phys.}
+{jpa}    { J. Phys. A}
+{mnras}  { Mon. Not. R. Ast. Soc.}
+{mpcps}  { Math. Proc. Camb. Phil. Soc.}
+{mpla}   { Mod. Phys. Lett. A} 
+{nat}    { Nature}
+{nc}     { Nuovo Cim.}
+{npb}    { Nuc. Phys. B}
+{ph}     { Physica}
+{pla}    { Phys. Lett. A}
+{plb}    { Phys. Lett. B}
+{pmd}    { Publ Mat Debrecen}
+{pnas}   { Proc. Nat. Acad. Sci.}
+{pr}     { Phys. Rev.}
+{prd}    { Phys. Rev. D}
+{prep}   { Phys. Rep.}
+{prl}    { Phys. Rev. Lett.}
+{prsla}  { Proc. Roy. Soc. Lond. A}
+{ptp}    { Prog. Theor. Phys.}
+{ptps}   { Prog. Theor. Phys. Suppl.}
+{rmp}    { Rev. Mod. Phys.}
+{spaw}   { Sitz. Preuss. Akad. Wiss.}
+{spj}    { Sov. Phys. JETP}
+{srtu}   { Sci. Rep. Tohoku Univ.}
+{sspgt}   {Sbornik Sovrem Probl Grav Tbilissi}
+{za}     { Zh. Astrof.}
+{zp}     { Z. Phys.}

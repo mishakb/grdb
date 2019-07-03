@@ -1,0 +1,2 @@
+grcalc(diWeyl);
+*grdisplay(_);

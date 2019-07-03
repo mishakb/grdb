@@ -1,0 +1,15 @@
+Ndim_ := 4:
+x1_ := t:
+x2_ := z:
+x3_ := x:
+x4_ := y:
+sig_ := 2:
+complex_ := {}:
+g11_ := -2*(a*z^2+b)/x^2:
+g22_ := 2/(a*z^2+b)/x^2:
+g33_ := 2/(-2*d^2*x^2+c*x-a)/x^4:
+g44_ := 2*(-2*d^2*x^2+c*x-a):
+constraint_ := [ ]:
+Info_ := `Kowalczynski and Plebanski metric`:
+Ref_ := ["Kowalczynski & Plebanski, ijtp, v16, p371, (1977)"]:
+Archive1_ := `(27.57) p297`:

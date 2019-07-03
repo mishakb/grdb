@@ -1,0 +1,19 @@
+Ndim_ := 4:
+x1_ := t:
+x2_ := phi:
+x3_ := r:
+x4_ := z:
+complex_ := {}:
+eta12_ := 1:
+eta34_ := -1:
+bd11_ := r^(2*a)*exp(2*z):
+bd12_ := r:
+bd21_ := 1/2*r^(2-2*a)/r^2*r^(2*a):
+bd22_ := -1/2/r*r^(2-2*a)/exp(2*z):
+bd33_ := -1/2*I*2^(1/2)/(r^(a^2))*r^a/exp(a*z)^2*exp(z)/exp(C)*exp(r^2)^(1/2)*r^(2*a*(a-1))*exp(4*a*z-2*z-r^2+2*C):
+bd34_ := -1/2*2^(1/2)/(r^(a^2))*r^a/exp(a*z)^2*exp(z)/exp(C)*exp(r^2)^(1/2)*r^(2*a*(a-1))*exp(4*a*z-2*z-r^2+2*C):
+bd43_ := 1/2*I*2^(1/2)/(r^(a^2))*r^a/exp(a*z)^2*exp(z)/exp(C)*exp(r^2)^(1/2)*r^(2*a*(a-1))*exp(4*a*z-2*z-r^2+2*C):
+bd44_ := -1/2*2^(1/2)/(r^(a^2))*r^a/exp(a*z)^2*exp(z)/exp(C)*exp(r^2)^(1/2)*r^(2*a*(a-1))*exp(4*a*z-2*z-r^2+2*C):
+constraint_ := []:
+Info_ := `A vacuum metric admitting a nontrivial homothety which is non-null and not hypersurface-orthogonal and whose homothetic bivector is null`:
+

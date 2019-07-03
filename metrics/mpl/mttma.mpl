@@ -1,0 +1,17 @@
+Ndim_ := 4:
+x1_ := x:
+x2_ := y:
+x3_ := phi:
+x4_ := t:
+sig_ := 2:
+complex_ := {}:
+g11_ := a^2/x^2:
+g22_ := a^2/x^2:
+g33_ := x^2-4*y^2:
+g34_ := 2*y:
+g44_ := -1:
+constraint_ := [ ]:
+Info_ := `McLenaghan Tariq Tupper metric`:
+Ref_ := ["Mclenaghan, jmp, v16, p11, (1975)","Tupper, grg, v7, p479, (1976)"]:
+Archive1_ := `(10.21) p121`: 
+Archive2_ := `McLenaghanTariq.lor`:

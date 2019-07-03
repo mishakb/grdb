@@ -1,0 +1,15 @@
+Ndim_ := 4:
+x1_ := t:
+x2_ := phi:
+x3_ := rho:
+x4_ := z:
+sig_ := 2:
+complex_ := {}:
+g11_ := -rho^(2*m):
+g22_ := rho^(2*(1-m)):
+g33_ := rho^(2*(m^2-m)):
+g44_ := rho^(2*(m^2-m)):
+constraint_ := [ ]:
+Info_ := `Levi-Civita Static Vacuum Solution`:
+Ref_ := ["Levi-Civita, ral, v26-28"]:
+Archive1_ := `(20.8) p221`:

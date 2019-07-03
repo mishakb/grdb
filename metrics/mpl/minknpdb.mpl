@@ -1,0 +1,20 @@
+Ndim_ := 4:
+x1_ := r:
+x2_ := theta:
+x3_ := phi:
+x4_ := t:
+sig_ := -2:
+complex_ := {}:
+eta12_ := 1:
+eta34_ := -1:
+bd11_ := 1:
+bd14_ := 1:
+bd21_ := -1/2:
+bd24_ := 1/2:
+bd32_ := -1/2*2^(1/2)*r:
+bd33_ := -1/2*I*2^(1/2)*r*sin(theta):
+bd42_ := -1/2*2^(1/2)*r:
+bd43_ := 1/2*I*2^(1/2)*r*sin(theta):
+constraint_ := []:
+Info_ := `Covariant NP tetrad for Minkowski space in polar coordinates`:
+

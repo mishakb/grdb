@@ -1,0 +1,2 @@
+grcalc(diS);
+*grdisplay(_);

@@ -1,0 +1,3 @@
+makeds(minkotest,[x,y,z,t],d[x]^2+d[y]^2+d[z]^2-d[t]^2,`minkowski , plus  x = y and  z=t constraints (this is just a test)`,[x=y,z=t]);
+grdisplay(g(dn,dn));
+

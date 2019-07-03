@@ -1,0 +1,15 @@
+Ndim_ := 4:
+x1_ := t:
+x2_ := r:
+x3_ := theta:
+x4_ := phi:
+sig_ := 2:
+complex_ := {}:
+g11_ := -(1-2*m/r-lambda*r^2/3):
+g22_ := 1/(1-2*m/r-lambda*r^2/3):
+g33_ := r^2:
+g44_ := r^2*sin(theta)^2:
+constraint_ := [ ]:
+Info_ := `Kottler s generalisation of Schwarzschild with lambda non-zero, aka Schwarzschild-de Sitter`:
+Ref_ := ["Kottler, ap, v56, p410, (1918)"]:
+Archive1_ := `p157, Table 13.1`:

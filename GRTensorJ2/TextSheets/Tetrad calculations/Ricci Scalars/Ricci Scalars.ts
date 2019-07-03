@@ -1,0 +1,2 @@
+grcalc(RicciSc):
+*grdisplay(_);

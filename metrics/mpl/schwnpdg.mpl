@@ -1,0 +1,21 @@
+Ndim_ := 4:
+x1_ := u:
+x2_ := v:
+x3_ := Theta:
+x4_ := Phi:
+sig_ := -2:
+complex_ := {}:
+eta12_ := 1:
+eta34_ := -1:
+bd11_ := 16*(r(u,v)-2*m)*m^2/(v-u)/(v+u)/r(u,v):
+bd12_ := 16*(r(u,v)-2*m)*m^2/(v-u)/(v+u)/r(u,v):
+bd21_ := 1/2:
+bd22_ := -1/2:
+bd33_ := -1/2*I*2^(1/2)*r(u,v):
+bd34_ := -1/2*2^(1/2)*r(u,v)*sin(Theta):
+bd43_ := 1/2*I*2^(1/2)*r(u,v):
+bd44_ := -1/2*2^(1/2)*r(u,v)*sin(Theta):
+constraint_ := [diff(r(u,v),u) = 4*u*m/(-u^2+v^2)*(-r(u,v)+2*m)/r(u,v), diff(r(u,v),v) = -4*v*m/(-u^2+v^2)*(-r(u,v)+2*m)/r(u,v)]:
+Info_ := `Covariant NP tetrad for diagonal form of Kruskal Szekeres metric`:
+Ref_:=["Kruskal, pr, v119, p1743, (1960)", "Szekeres, pmd, v7, p285, (1960)"]: 
+Archive1_:=`(13.25) p158`:

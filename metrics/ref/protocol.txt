@@ -1,0 +1,32 @@
+Database Name Protocol
+===================
+
+abc.mpl
+
+1: No numbers
+2: All lower case
+3: a=name (e.g. bondi)
+4: b=m (metric), or np (covariant AND contravariant np tetrad), or b (basis)
+5: c=a,...,z (version)
+
+Defaul signature for metrics +2 for NP tetrads -2
+
+Internal structure (e.g. in metric form)
+
+Ndim_ := 4:
+x1_ := x:
+x2_ := y:
+x3_ := z:
+x4_ := t:
+sig_:=2:
+complex_ := {}:
+g11_ := 1:
+g22_ := 1:
+g33_ := 1:
+g44_ := 1:
+constraint_ := [ ]:
+Info_:= `test`:
+Ref_:=`Journal Reference see ref.txt`:
+Archive1_:=`Equation number and page from KSHMS in the format (n.m) pl`: 
+Archive2_:=`Skea's (e.g.) SchwarzschildExterior.dia `:
+Archive3_:=`Equation number and page from Hawking and Ellis (n.m) pl`:

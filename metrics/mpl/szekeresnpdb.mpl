@@ -1,0 +1,19 @@
+Ndim_ := 4:
+x1_ := T:
+x2_ := X:
+x3_ := y:
+x4_ := z:
+complex_ := {}:
+eta12_ := 1:
+eta34_ := -1/(2*cosh(T)^2-1)*cosh(2*T):
+bd11_ := exp(6*X)/cosh(2*T)^2:
+bd12_ := 1/cosh(2*T)^2*exp(12*X)^(1/2):
+bd21_ := 1/2*exp(6*X)^2/exp(12*X):
+bd22_ := -1/2/exp(12*X)^(1/2)*exp(6*X):
+bd33_ := -1/2*I*2^(1/2)/exp(X)/(2*cosh(T)^2-1)^(1/2)*exp(2*X)*cosh(2*T):
+bd34_ := -1/2*2^(1/2)/exp(X)/(2*cosh(T)^2-1)^(1/2)*exp(2*X)*cosh(2*T):
+bd43_ := 1/2*I*2^(1/2)/exp(X)/(2*cosh(T)^2-1)^(1/2)*exp(2*X)*cosh(2*T):
+bd44_ := -1/2*2^(1/2)/exp(X)/(2*cosh(T)^2-1)^(1/2)*exp(2*X)*cosh(2*T):
+constraint_ := []:
+Info_ := `A special stiff perfect fluid case of the Szekeres solution in Abelian type coordinates`:
+

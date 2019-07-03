@@ -1,0 +1,19 @@
+Ndim_ := 4:
+x1_ := t:
+x2_ := z:
+x3_ := r:
+x4_ := phi:
+complex_ := {}:
+eta12_ := 1:
+eta34_ := -1:
+bd11_ := 1/z:
+bd12_ := 1:
+bd21_ := 1/2:
+bd22_ := -1/2*z:
+bd33_ := -1/2*I*2^(1/2)*z:
+bd34_ := -1/2*2^(1/2)*z*r:
+bd43_ := 1/2*I*2^(1/2)*z:
+bd44_ := -1/2*2^(1/2)*z*r:
+constraint_ := []:
+Info_ := `Levi-Civita Solution, Class AIII`:
+

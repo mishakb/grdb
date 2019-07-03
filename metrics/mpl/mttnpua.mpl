@@ -1,0 +1,25 @@
+Ndim_ := 4:
+x1_ := x:
+x2_ := y:
+x3_ := phi:
+x4_ := t:
+sig_ := -2:
+complex_ := {}:
+eta12_ := 1:
+eta34_ := -1:
+b12_ := 1:
+b14_ := a/x:
+b22_ := -1/2/a^2*x^2:
+b24_ := 1/2/a*x:
+b31_ := 1/2*I*2^(1/2)/a*x:
+b33_ := 1/2*2^(1/2)/x:
+b34_ := 2^(1/2)/x*y:
+b41_ := -1/2*I*2^(1/2)/a*x:
+b43_ := 1/2*2^(1/2)/x:
+b44_ := 2^(1/2)/x*y:
+constraint_ := [ ]:
+Info_ := `Contravariant NP terad for McLenaghan Tariq Tupper metric`:
+Ref_:=["Mclenaghan, jmp, v16, p11, (1975)","Tupper, grg, v7, p479, (1976)"]:
+Archive1_:=`(10.21) p121`: 
+Archive2_:=`McLenaghanTariq.lor`:
+

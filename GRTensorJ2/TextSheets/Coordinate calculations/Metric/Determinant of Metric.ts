@@ -1,0 +1,3 @@
+grcalc(detg);
+*grdisplay(detg);
+

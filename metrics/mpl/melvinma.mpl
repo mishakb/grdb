@@ -1,0 +1,15 @@
+Ndim_ := 4:
+x1_ := t:
+x2_ := rho:
+x3_ := z:
+x4_ := phi:
+sig_ := 2:
+complex_ := {}:
+g11_ := -(1+B0^2*rho^2/4)^2:
+g22_ := (1+B0^2*rho^2/4)^2:
+g33_ := (1+B0^2*rho^2/4)^2:
+g44_ := rho^2/(1+B0^2*rho^2/4)^2:
+constraint_ := [ ]:
+Info_ := `Melvin s magnetic universe`:
+Ref_ := ["Bonnor, prsl, vA67, p225, (1954)", "Melvin, pl, v8, p65, (1964)"]:
+Archive1_ := `(20.10) p222`:

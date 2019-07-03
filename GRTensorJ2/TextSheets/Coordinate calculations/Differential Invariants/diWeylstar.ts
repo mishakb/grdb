@@ -1,0 +1,2 @@
+grcalc(diWeylstar);
+*grdisplay(_);

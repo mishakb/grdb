@@ -1,0 +1,7 @@
+Explanation
+Cstar(bdn,bdn,bdn,bdn)
+Cstar(bup,bdn,bdn,bdn)
+Cstar(bup,bup,bdn,bdn)
+Cstar(bup,bup,bup,bup)
+
+

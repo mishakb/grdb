@@ -1,0 +1,25 @@
+Ndim_ := 4:
+x1_ := x:
+x2_ := y:
+x3_ := z:
+x4_ := t:
+sig_ := -2:
+complex_ := {}:
+eta12_ := 1:
+eta34_ := -1:
+b11_ := 1:
+b14_ := 1/c:
+b21_ := -1/2/a^2:
+b24_ := 1/2/a^2/c:
+b32_ := I/a/exp(x):
+b33_ := 1/2*2^(1/2)/a:
+b34_ := -I/a/c:
+b42_ := -I/a/exp(x):
+b43_ := 1/2*2^(1/2)/a:
+b44_ := I/a/c:
+constraint_ := [ ]:
+Info_:=`NP tetrad for Godel metric `:
+Ref_:=["rmp, v21, p447, (1949)"]:
+Archive1_:=`(10.25) p122`: 
+Archive2_:=`Godel.nul `: 
+

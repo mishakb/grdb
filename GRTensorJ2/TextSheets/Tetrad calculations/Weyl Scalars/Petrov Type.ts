@@ -1,0 +1,3 @@
+grcalc(Petrov):
+*grdisplay(_);
+

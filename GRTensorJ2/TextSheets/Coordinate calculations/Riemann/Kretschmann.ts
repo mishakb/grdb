@@ -1,0 +1,3 @@
+grcalc(RiemSq);
+*grdisplay(RiemSq);
+

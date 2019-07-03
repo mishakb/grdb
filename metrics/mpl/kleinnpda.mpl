@@ -1,0 +1,19 @@
+Ndim_ := 4:
+x1_ := t:
+x2_ := r:
+x3_ := theta:
+x4_ := phi:
+complex_ := {}:
+eta12_ := 1:
+eta34_ := -1:
+bd11_ := 7^(1/2)*p0^(1/2)*r:
+bd12_ := 1/2*7^(1/2)*(7^(1/2)*p0^(1/2)*r)^(1/2):
+bd21_ := 1/2:
+bd22_ := -1/4/r/p0^(1/2)*(7^(1/2)*p0^(1/2)*r)^(1/2):
+bd33_ := -1/2*I*2^(1/2)*r:
+bd34_ := -1/2*2^(1/2)*r*sin(theta):
+bd43_ := 1/2*I*2^(1/2)*r:
+bd44_ := -1/2*2^(1/2)*r*sin(theta):
+constraint_ := []:
+Info_ := `Klein s static spherically symmetric radiation perfect fluid solution`:
+

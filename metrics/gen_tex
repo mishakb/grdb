@@ -1,0 +1,22 @@
+#!/bin/bash
+
+MAPLE_SCRIPT_REF=ref/metric2tex.mpl
+
+TEX_PREFIX="\\documentclass{article}\\begin{document}\$"
+TEX_SUFFIX="\$\\end{document}"
+
+mpl2tex() {
+  local file=$1
+  local basename=${file##*/}
+  local metricname=${basename%.mpl}
+  local output=tex/${metricname}.tex
+  maple -q -D METRIC=$metricname $MAPLE_SCRIPT_REF >/dev/null
+  echo $TEX_PREFIX > $output
+  cat $metricname >> $output
+  echo $TEX_SUFFIX >> $output
+  rm $metricname
+}
+
+for mpl in mpl/*; do
+  mpl2tex $mpl
+done

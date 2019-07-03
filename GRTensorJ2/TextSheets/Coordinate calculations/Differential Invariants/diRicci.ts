@@ -1,0 +1,2 @@
+grcalc(diRicci);
+*grdisplay(_);

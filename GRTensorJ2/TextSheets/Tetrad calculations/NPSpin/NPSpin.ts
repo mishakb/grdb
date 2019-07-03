@@ -1,0 +1,4 @@
+grcalc(NPSpin):
+*grdisplay(_);
+
+

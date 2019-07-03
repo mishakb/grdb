@@ -1,0 +1,14 @@
+Ndim_ := 4:
+x1_ := t:
+x2_ := x:
+x3_ := y:
+x4_ := z:
+sig_ := 2:
+complex_ := {}:
+g11_ := -1/((x^(1(+b)/2)+s0*sinh(t)^(1(+b)/2)))^2:
+g22_ := 1/(((x^(1(+b)/2)+s0*sinh(t)^(1(+b)/2))*x))^2:
+g33_ := (x^(bb(+1)/2)*cosh(t)^(1(-b)/2)/(x^(1(+b)/2)+s0*sinh(t)^(1(+b)/2)))^2:
+g44_ := (x^(bb(-1)/2)*cosh(t)^(1(+b)/2)/(x^(1(+b)/2)+s0*sinh(t)^(1(+b)/2)))^2:
+constraint_ := [ ]:
+Info_ := `A perfect fluid cosmological solution admitting a G2. Solution C.`:
+Ref_ := ["Mars & Wolf, QMW preprint (1996)"]:

@@ -1,0 +1,19 @@
+Ndim_ := 4:
+x1_ := t:
+x2_ := phi:
+x3_ := rho:
+x4_ := z:
+complex_ := {}:
+eta12_ := 1:
+eta34_ := -1:
+bd11_ := rho^(2*m):
+bd12_ := rho:
+bd21_ := 1/2*rho^(2-2*m)/rho^2*rho^(2*m):
+bd22_ := -1/2/rho*rho^(2-2*m):
+bd33_ := -1/2*I*2^(1/2)/(rho^(m^2))*rho^m*rho^(2*m^2-2*m):
+bd34_ := -1/2*2^(1/2)/(rho^(m^2))*rho^m*rho^(2*m^2-2*m):
+bd43_ := 1/2*I*2^(1/2)/(rho^(m^2))*rho^m*rho^(2*m^2-2*m):
+bd44_ := -1/2*2^(1/2)/(rho^(m^2))*rho^m*rho^(2*m^2-2*m):
+constraint_ := []:
+Info_ := `Levi-Civita Static Vacuum Solution`:
+

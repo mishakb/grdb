@@ -1,0 +1,7 @@
+Explanation
+Cstar(dn,dn,dn,dn)
+Cstar(up,dn,dn,dn)
+Cstar(up,up,dn,dn)
+Cstar(up,up,up,up)
+
+

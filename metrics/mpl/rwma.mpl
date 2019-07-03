@@ -1,0 +1,16 @@
+Ndim_ := 4:
+x1_ := nu:
+x2_ := chi:
+x3_ := theta:
+x4_ := phi:
+sig_ := 2:
+complex_ := {}:
+g11_ := -A0^2*(1-cos(nu))^2:
+g22_ := A0^2*(1-cos(nu))^2:
+g33_ := A0^2*(1-cos(nu))^2*sin(chi)^2:
+g44_ := A0^2*(1-cos(nu))^2*sin(chi)^2*sin(theta)^2:
+constraint_ := [ ]:
+Info_ := `Robertson-Walker or Friedman solution for closed dustlike universe`:
+Ref_ := ["Landau-Lifshitz (112.4), (112.9), (112.10)"]:
+Archive1_ := `(12.3a) p122`:
+Archive3_ := `ch 5.3`:

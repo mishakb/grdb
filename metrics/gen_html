@@ -1,0 +1,12 @@
+#!/bin/bash
+
+tex2html() {
+  local file=$1
+  local basename=${1##*/}
+  local output=html/${basename/%tex/html}
+  tth -r < $file 2>/dev/null | sed 's/`//g' | sed 's/ //g' | sed '/^[[:space:]]*$/d' > $output
+}
+
+for tex in tex/*; do
+  tex2html $tex
+done

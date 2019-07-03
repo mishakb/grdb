@@ -1,0 +1,69 @@
+Created by PLY version 3.11 (http://www.dabeaz.com/ply)
+
+Grammar
+
+Rule 0     S' -> entry
+Rule 1     entry -> DATA COLON EQUALS DATA COLON
+
+Terminals, with rules where they appear
+
+COLON                : 1 1
+DATA                 : 1 1
+EQUALS               : 1
+error                : 
+
+Nonterminals, with rules where they appear
+
+entry                : 0
+
+Parsing method: LALR
+
+state 0
+
+    (0) S' -> . entry
+    (1) entry -> . DATA COLON EQUALS DATA COLON
+
+    DATA            shift and go to state 2
+
+    entry                          shift and go to state 1
+
+state 1
+
+    (0) S' -> entry .
+
+
+
+state 2
+
+    (1) entry -> DATA . COLON EQUALS DATA COLON
+
+    COLON           shift and go to state 3
+
+
+state 3
+
+    (1) entry -> DATA COLON . EQUALS DATA COLON
+
+    EQUALS          shift and go to state 4
+
+
+state 4
+
+    (1) entry -> DATA COLON EQUALS . DATA COLON
+
+    DATA            shift and go to state 5
+
+
+state 5
+
+    (1) entry -> DATA COLON EQUALS DATA . COLON
+
+    COLON           shift and go to state 6
+
+
+state 6
+
+    (1) entry -> DATA COLON EQUALS DATA COLON .
+
+    $end            reduce using rule 1 (entry -> DATA COLON EQUALS DATA COLON .)
+

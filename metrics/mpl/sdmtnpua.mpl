@@ -1,0 +1,25 @@
+Ndim_ :=    4   :
+x1_   :=   u   :
+x2_   :=   v   :
+x3_   :=   w   :
+x4_   :=   x   :
+sig_:=-2:
+complex_ := {}:
+eta12_   :=   1   :
+eta34_   :=   -1   :
+b11_   :=   1/2*P(w,x)*2^(1/2)/(L(w,x)*P(w,x)-M(w,x)*N(w,x))   :
+b12_   :=   -1/2*N(w,x)*2^(1/2)/(L(w,x)*P(w,x)-M(w,x)*N(w,x))   :
+b14_   :=   -1/2/S(w,x)*2^(1/2)   :
+b21_   :=   1/2*P(w,x)*2^(1/2)/(L(w,x)*P(w,x)-M(w,x)*N(w,x))   :
+b22_   :=   -1/2*N(w,x)*2^(1/2)/(L(w,x)*P(w,x)-M(w,x)*N(w,x))   :
+b24_   :=   1/2/S(w,x)*2^(1/2)   :
+b31_   :=   -1/2*M(w,x)*2^(1/2)/(L(w,x)*P(w,x)-M(w,x)*N(w,x))   :
+b32_   :=   1/2*L(w,x)*2^(1/2)/(L(w,x)*P(w,x)-M(w,x)*N(w,x))   :
+b33_   :=   -1/2*I/R(w,x)*2^(1/2)   :
+b41_   :=   -1/2*M(w,x)*2^(1/2)/(L(w,x)*P(w,x)-M(w,x)*N(w,x))   :
+b42_   :=   1/2*L(w,x)*2^(1/2)/(L(w,x)*P(w,x)-M(w,x)*N(w,x))   :
+b43_   :=   1/2*I/R(w,x)*2^(1/2)   :
+constraint_ := [ ]:
+Info_:=`Contravariant NP tetrad for the simplified Debever McLenaghan Tariq metric`:
+Ref_:=["Debever, grg, v 10, p853, (1979)"]: 
+

@@ -1,0 +1,14 @@
+Ndim_ := 4:
+x1_ := T:
+x2_ := X:
+x3_ := y:
+x4_ := z:
+sig_ := 2:
+complex_ := {}:
+g11_ := -exp(6*X)/cosh(2*T)^2:
+g22_ := exp(6*X)/cosh(2*T)^2:
+g33_ := exp(2*X)*cosh(2*T):
+g44_ := exp(2*X)*cosh(2*T):
+constraint_ := [ ]:
+Info_ := `A special stiff perfect fluid case of the Szekeres solution in Abelian type coordinates`:
+Ref_ := ["Szekeres, cmp, v41, p55, (1975)", "Goode & Wainwright"]:
